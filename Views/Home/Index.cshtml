@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form id="studentForm">
+    <p><input type="text" name="firstName" placeholder="Ad" required></p>
+    <p><input type="text" name="lastName" placeholder="Soyad" required></p>
+    <p><button>Ekle</button></p>
+</form>
+
+<ul id="studentList"></ul>
+
+@section Scripts {
+    <script src="~/js/students.js" asp-append-version="true"></script>
+}
